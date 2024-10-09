@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid red; */
+    color: white;
+
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px ;
+    background-image: url(https://wallpapercave.com/wp/wp5741903.jpg);
+    background-size: cover;
+    margin: 20px 0px;
+    border-radius: 30px;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.logo{
+font-size: 50px;
+color:  rgb(101, 212, 110);
+
+}
+.main h2{
+    margin: 10px 0 20px 0;
+}
+button{
+
+    background-color: transparent;
+    width: 324px;
+    height: 56px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px ;
+    border: 1px solid white;
+
+
+}
+button p{
+    margin: 5px auto;
+    font-size: 18px;
+}
+button i{
+    font-size: 30px;
+}
+hr{
+    width: 534px;
+    margin: 32px 100px;
+    color: rgb(41, 41, 41);
+    border: .5px solid grey;
+
+}
+.username{
+    width: 324px;
+    height: 48px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    border: 1px solid grey;
+  
+}
+.username::placeholder{
+    padding: 12px;
+}
+.email{
+    margin-bottom: 8px;
+}
+#login{
+    width: 324px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(101, 212, 110);
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    border: 0;
+}
+#pass{
+    margin-bottom: 32px;
+}
+#dont{
+    color: rgb(142, 140, 140);
+    margin-bottom: 20px;
+}
