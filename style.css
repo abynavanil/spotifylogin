@@ -7,13 +7,6 @@
 
 }
 
-body{
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-
-}
 .main{
     display: flex;
     flex-direction: column;
@@ -22,10 +15,10 @@ body{
     background-image: url(https://wallpapercave.com/wp/wp5741903.jpg);
     background-size: cover;
     background-position: center;
-    margin: 20px 0px;
-    border-radius: 30px;
+ 
     justify-content: center;
     width: 100%;
+    
     
 
 }
